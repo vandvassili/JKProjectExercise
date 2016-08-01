@@ -195,12 +195,22 @@
 }
 
 .video-list .right .list-content{
-    width:300px;
+    width:600px;
     padding:10px;
     float: left;
     margin-left: auto;
 }
 
+.video-list .right .list-content .lists{
+    display: block;
+}
+
+.video-list .right .list-content .lists .question-title {
+    width:260px;
+    margin:20px 0;
+    line-height:40px;
+    float: left;
+}
 .video-list .right .list-content .lists .question-title a{
     margin-top:20px;
     line-height:40px;
@@ -213,15 +223,31 @@
 
 .video-list .right .list-content .lists .reply-img-name-des{
     float: right;
-    padding-right: 10px;
-    margin: 0 0;
-
+    padding-right: 30px;
+    margin-right:20px;
+    width: 240px;
+    line-height:35px;
 }
 
 .video-list .right .list-content .lists .reply-img-name-des .reply-img{
     margin:0 auto;
     width:32px;
     height: 32px;
-    border-radius: 16px;
+    border-radius: 50%;
     overflow: hidden;
+    float: left;
+}
+
+.video-list .right .list-content .lists .reply-img-name-des .reply-name{
+    float: left;
+}
+.video-list .right .list-content .lists .reply-img-name-des .reply-name span{
+    font-weight:700;
+    color: #29bb9c;
+}
+
+.video-list .right .list-content .lists .reply-img-name-des .reply-time{
+    text-align: right;
+    color: #b2b2b2;
+    font-size:12px;
 }
