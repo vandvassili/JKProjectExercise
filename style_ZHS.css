@@ -1,0 +1,727 @@
+/*
+初始化页面
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+li {
+    list-style: none;
+    display: block;
+}
+
+body {
+    width: 100%;
+    min-width:1200px;
+    background-color: #f5f6f8;
+    font-family: Helvetica, 微软雅黑, sans-serif, Arial;
+    font-size: 14px;
+    color: #313131;
+}
+
+.container {
+    width: 1150px;
+    margin: auto;
+}
+
+.site-top {
+    width: 100%;
+    height: 50px;
+    background-color: powderblue;
+}
+.site-main {
+    width: 100%;
+    height: auto;
+    background-color: #f4f6f8;
+    overflow: hidden;
+}
+
+.main-left {
+    height: auto;
+    width: 820px;
+    float: left;
+}
+.main-right {
+    width:290px;
+    height:960px;
+    float: right;
+}
+.site-footer {
+    height: 202px;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.site-info {
+    width: 100%;
+    height: 155px;
+    color: white;
+    background-color: #565656;
+}
+/*
+007服务详情页样式start
+*/
+.company-info .service-item-image {
+    border-top:3px solid #1f81c3;
+}
+.company-info .service-item-image img {
+    width: 250px;
+    height:200px;
+    float: left;
+    padding:22px 0 0 20px;
+}
+
+.company-info .company-type {
+    width:200px;
+    height:200px;
+    float: left;
+    padding:22px 0 0 25px;
+}
+.company-type-text {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight:500;
+    text-align: left;
+}
+.company-info .company-type ul {
+    margin-top:20px;
+}
+
+.company-info .company-type ul li {
+    font-size: 16px;
+    line-height:30px;
+    text-align: left;
+    color: #777676;
+}
+
+.service-contact {
+    width:143px;
+    height:43px;
+    font-size:18px;
+    color: #ffffff;
+    text-align: center;
+    line-height:43px;
+    background-color: #1f81c3;
+    margin:43px 0 0 3px;
+}
+.service-intro {
+    height: auto;
+    width: 780px;
+    margin-top: 18px;
+    float: left;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+/*
+007服务详情页样式end
+*/
+
+/*
+010机构详情页样式start
+*/
+
+/*
+site-main
+css style
+网站内容样式
+*/
+
+
+.site-main .container {
+    height: auto;
+    width: 1150px;
+    margin: 18px auto 0;
+}
+
+/*
+site-main
+company-info
+css style
+*/
+.site-main .container .company-info {
+    width: 1150px;
+    height: 250px;
+    float: left;
+    background-color: #ffffff;
+}
+
+.site-main .container .company-info-image {
+    float: left;
+    width: 350px;
+}
+
+.site-main .container .company-info-image img {
+    display: block;
+    width: 105px;
+    height: 105px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.site-main .container .company-info-image p {
+    font-size: 18px;
+    text-align: center;
+    color: #171717;
+    font-weight:600;
+}
+
+.company-info-intro {
+    width: 280px;
+    height: 195px;
+    border-left: 1px solid #e6e6e6;
+    margin-top: 30px;
+    padding-left: 30px;
+    float: left;
+}
+
+.company-info-intro ul li {
+    padding-bottom: 22px;
+    font-size: 16px;
+}
+
+.site-main .container .company-info-right {
+    width: 177px;
+    float: right;
+    padding: 27px 27px 27px 0;
+}
+
+.follow {
+    width: 87px;
+    height: 32px;
+    background-color: #fe7140;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    line-height:32px;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.send-plan {
+    width: 117px;
+    height: 32px;
+    background-color: #1f81c3;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    line-height:32px;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.site-main .container .company-info-right .follow {
+    float: right;
+}
+
+.visited-info {
+    width: 150px;
+    height: 23px;
+    float: right;
+    margin-top: 145px;
+    font-size: 14px;
+    display: inline-block;
+
+}
+
+.visited-info .eye {
+    float: left;;
+    width: 70px;
+    height: 23px;
+}
+
+.visited-info .eye .eye-img {
+    display: block;
+    float: left;
+}
+
+.visited-info .eye .eye-text p {
+    text-align: left;
+    line-height: 23px;
+}
+
+.visited-info .heart {
+    float: left;
+    width: 54px;
+    height: 23px;
+    padding-left: 20px;
+    border-left: 1px solid #e6e6e6;
+}
+
+.visited-info .heart .heart-img {
+    display: block;
+    float: left;
+}
+
+.visited-info .heart .heart-text p {
+    text-align: left;
+    line-height: 23px;
+}
+
+/*
+site-main
+main-left
+css style
+左侧列表样式
+*/
+
+
+.main-left .company-detail {
+    height: auto;
+    width: 780px;
+    margin-top: 18px;
+    float: left;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.p1 {
+    width: 100%;
+    color: #1f81c3;
+    font-size: 18px;
+    line-height: 18px;
+    padding-bottom: 25px;
+    float: left;
+}
+
+.p2 {
+    font-size: 14px;
+    line-height: 30px;
+    text-indent: 35px;
+}
+
+.main-left .company-people {
+    height: 243px;
+    width: 780px;
+    margin-top: 18px;
+    float: left;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.people-detail {
+    width: 260px;
+    height: 115px;
+    float: left;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.people-detail img {
+    display: block;
+    float: left;
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    /*border:1px solid gray;*/
+}
+
+.people-detail .people-name {
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100px;
+    height: 16px;
+}
+
+.people-detail .people-job {
+    float: left;
+    margin-left: 5px;
+    width: 100px;
+    height: 16px;
+    color: #a7a7a7;
+}
+
+.main-left .company-info-detail {
+    height: auto;
+    width: 780px;
+    margin-top: 18px;
+    float: left;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.main-left .company-awards {
+    height: 340px;
+    width: 780px;
+    margin-top: 18px;
+    margin-bottom:30px;
+    float: left;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.award-img {
+    width:390px;
+    height:350px;
+    display: inline-block;
+    float: left;
+    margin-top:20px;
+
+}
+
+.award-img img {
+    display: block;
+    width:270px;
+    height:190px;
+    margin:5px auto;
+}
+
+.award-img p {
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+/*
+site-main
+main-right
+css style
+右侧列表样式
+*/
+
+
+
+.main-right .company-service {
+    width:254px;
+    height:544px;
+    background-color: #ffffff;
+    margin-top: 18px;
+    float: left;
+    padding: 18px;
+}
+
+.main-right .service-title {
+    width:100%;
+    font-size: 22px;
+    line-height:30px;
+    padding-bottom:10px;
+    float: left;
+}
+.service-item {
+    width:100%;
+    height:84px;
+    float: left;
+    display: inline-block;
+    padding-top:20px;
+    border-top:1px solid #c0c1c2;
+}
+.service-item .service-image {
+    width:64px;
+    height:64px;
+    float: left;
+}
+.service-item img {
+    width:64px;
+    height:64px;
+}
+.service-type {
+    width:85px;
+    height:65px;
+    margin-left:15px;
+    float: left;
+}
+.service-item .item-name {
+    font-size: 14px;
+    line-height:30px;
+    text-align: left;
+}
+.service-item  .item-price {
+    color: #fe9570;
+    font-size: 14px;
+    line-height:30px;
+    text-align: left;
+}
+.item-contact {
+    width:84px;
+    height:30px;
+    float: left;
+    margin-top:18px;
+}
+.item-contact p {
+    line-height:30px;
+    background-color: #fe7140;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.company-location {
+    width:254px;
+    height:auto;
+    background-color: #ffffff;
+    margin-top: 18px;
+    float: left;
+    padding: 18px;
+}
+.company-location  img {
+    width:252px;
+    height:186px;
+}
+.location-text {
+    margin:0 auto;
+    width:250px;
+    line-height:30px;
+    font-size: 14px;
+    text-align: center;
+}
+
+/*
+010机构详情页样式end
+*/
+
+
+/*
+053投资机构详情页样式start
+*/
+
+.investment-company-info {
+    width: 330px;
+    height:280px;
+    float: left;
+}
+.investment-company-info-image {
+    width:120px;
+    height:120px;
+    margin:5px auto 0;
+}
+.investment-company-info-image img {
+    width:105px;
+    height:105px;
+    position: relative;
+    left:7px;
+    top:7px;
+    z-index:1;
+}
+.investment-company-info-image .company-level {
+    width:30px;
+    height:30px;
+    color: #ffffff;
+    font-size: 18px;
+    line-height:30px;
+    position: relative;
+    right:-95px;
+    bottom:15px;
+    z-index: 2;
+    font-weight:200;
+    background-color: #fe7140;
+    text-align: center;
+    border-radius: 50%;
+}
+.investment-company-name {
+    font-size:18px;
+    line-height:30px;
+    margin-top:10px;
+    text-align: center;
+    color: #171717;
+    font-weight:600;
+}
+
+.investment-company-info .visited-info {
+    width:100%;
+    margin:5px auto 0;
+}
+.investment-company-info .visited-info .eye {
+    margin-left:90px;
+}
+.follow-and-send {
+    width:100%;
+    margin-top:60px;
+}
+.follow-and-send .follow {
+    margin-left:60px;
+}
+
+.follow-and-send .send-plan {
+    margin-left:10px;
+}
+
+.investment-company .company-info-intro {
+    height:250px;
+    width:400px;
+    margin-top:20px;
+}
+
+.investment-company .company-info-intro ul li {
+    font-size: 18px;
+    line-height:24px;
+}
+
+.tab {
+    width:780px;
+    height:700px;
+    border:1px solid #eee;
+    overflow: hidden;
+}
+
+.tab-title {
+    height:40px;
+    position: relative;
+    background-color: #f7f7f7;
+}
+
+.tab-title ul {
+    position: absolute;
+    width:401px;
+    left:-1px;
+}
+
+.tab-title li {
+    float: left;
+    width:98px;
+    height:39px;
+    line-height:39px;
+    text-align: center;
+    padding:0 1px;
+    border-bottom:1px solid #eeeeee;
+    overflow: hidden;
+}
+
+/*.tab li a:link,.tab li a:visited{*/
+    /*text-decoration: none;*/
+    /*color: #000;*/
+/*}*/
+
+.tab li:hover{
+    color:#f90;
+    font-weight: 700;
+    background: #fff;
+    border-bottom-color: #fff;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    padding: 0;
+}
+
+/*.tab-title li.select{*/
+    /*background: #fff;*/
+    /*border-bottom-color: #fff;*/
+    /*border-left: 1px solid #eee;*/
+    /*border-right: 1px solid #eee;*/
+    /*padding: 0;*/
+/*}*/
+
+
+/*
+053投资机构详情页样式end
+*/
+
+/*
+site-footer
+css style
+底部样式
+*/
+
+
+.site-footer .container {
+    width: 1160px;
+    height: 202px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    padding: 35px 0;
+    margin: auto;
+}
+
+.footer-links .col-links {
+    width: 172px;
+    height: 130px;
+    float: left;
+}
+
+.footer-links .col-links-last {
+    width: 150px;
+}
+
+.footer-links .col-links dt {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 20px;
+}
+
+.footer-links .col-links dd {
+    margin: 3px 0 0;
+}
+
+.col-contact {
+    float: left;
+    width: 270px;
+    height: 130px;
+    border-left: 1px solid white;
+    text-align: center;
+}
+
+.col-contact .phone-info {
+    font-size: 18px;
+}
+
+.col-contact .phone {
+    font-size: 30px;
+    display: block;
+}
+
+.col-contact span {
+    display: block;
+    margin-left: 60px;
+    float: left;
+}
+
+.QR-code {
+    width: 145px;
+    height: 125px;
+    float: left;
+    margin: auto;
+    padding-top: 5px;
+}
+
+.QR-code-wechat {
+    width: 100px;
+}
+
+.QR-code img {
+    width: 100px;
+    height: 100px;
+}
+
+/*
+site-info
+css style
+版权样式
+*/
+
+
+
+.site-info .container {
+    padding-top: 25px;
+}
+
+.site-info .container p {
+    display: block;
+    text-align: center;
+    line-height: 25px;
+}
+
+.copyright-img {
+    width: 1150px;
+    margin: auto;
+    height: 50px;
+}
+
+.site-info .container img {
+    display: block;
+    width: 695px;
+    height: 49px;
+    margin: 0 auto;
+}
