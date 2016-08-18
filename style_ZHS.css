@@ -713,7 +713,7 @@ css style
 }
 #experience-tab .tab li {
     width:118px;
-    border-left: 1px solid #e1e3e5;
+    /*border-left: 1px solid #e1e3e5;*/
     border-right: 1px solid #e1e3e5;
 }
 
@@ -884,6 +884,105 @@ css style
     color: #474747;
     float: left;
 }
+
+.hot-focus-company {
+    width:100%;
+    height:90px;
+    float: left;
+}
+
+.focus-company-image {
+    width:65px;
+    height:65px;
+    float: left;
+    margin-top:15px;
+}
+
+.focus-company-detail {
+    width:160px;
+    height:65px;
+    float: left;
+    margin-left:10px;
+    margin-top:15px;
+}
+
+.focus-company-name {
+    width:100%;
+    height:24px;
+    font-size: 16px;
+    line-height:24px;
+    float: left;
+}
+.focus-company-info {
+    width:100%;
+    height:20px;
+    line-height:20px;
+    float: left;
+    color: #474747;
+}
+
+.focus-company-status {
+    width:100%;
+    height:21px;
+    line-height:21px;
+    float: left;
+}
+
+.focus-company-circle {
+    width:70px;
+    height:21px;
+    line-height:21px;
+    float: left;
+    border-right:1px solid #474747;
+}
+.focus-company-value {
+    width:70px;
+    height:21px;
+    line-height:21px;
+    float: left;
+    color: #fe7140;
+    margin-left:15px;
+}
+
+.hot-investor {
+    width:100%;
+    height:95px;
+    float: left;
+}
+
+.hot-investor-image {
+    width:72px;
+    height:72px;
+    border-radius: 50%;
+    float: left;
+    margin-top:13px;
+}
+.hot-investor-detail {
+    width:120px;
+    height:72px;
+    float: left;
+    margin-top:20px;
+    margin-left:15px;
+}
+.hot-investor-name {
+    width:100%;
+    height:24px;
+    font-size: 16px;
+    line-height:24px;
+    float: left;
+}
+
+.hot-investor-info {
+    width:100%;
+    height:24px;
+    font-size: 16px;
+    line-height:24px;
+    float: left;
+    color: #6b6b6b;
+}
+
+
+
 /*
 011经验分享页样式end
 */
@@ -987,7 +1086,7 @@ css style
 .tab-title li {
     float: left;
     width:98px;
-    height:39px;
+    height:40px;
     line-height:39px;
     text-align: center;
     padding:0 1px;
@@ -1016,7 +1115,7 @@ css style
 }
 #investor-experience .tab li {
     width:118px;
-    border-left: 1px solid #e1e3e5;
+    /*border-left: 1px solid #e1e3e5;*/
     border-right: 1px solid #e1e3e5;
 }
 
